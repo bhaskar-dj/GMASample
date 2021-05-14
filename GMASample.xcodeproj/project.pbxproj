@@ -13,21 +13,12 @@
 		A5A98FD4264DA86B00F04CE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FCF264DA86B00F04CE1 /* ContentView.swift */; };
 		A5A98FE2264DA9EE00F04CE1 /* GMASample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A98FDB264DA9EE00F04CE1 /* GMASample.framework */; };
 		A5A98FF5264DA9FE00F04CE1 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = A5A98FE9264DA9FE00F04CE1 /* .swift-version */; };
-		A5A98FF6264DA9FE00F04CE1 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = A5A98FEB264DA9FE00F04CE1 /* .swiftlint.yml */; };
-		A5A98FF7264DA9FE00F04CE1 /* AdLoaderAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FEC264DA9FE00F04CE1 /* AdLoaderAdView.swift */; };
-		A5A98FF8264DA9FE00F04CE1 /* BannerViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FED264DA9FE00F04CE1 /* BannerViewManager.swift */; };
-		A5A98FF9264DA9FE00F04CE1 /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FEE264DA9FE00F04CE1 /* AdView.swift */; };
-		A5A98FFA264DA9FE00F04CE1 /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = A5A98FEF264DA9FE00F04CE1 /* .swiftformat */; };
-		A5A98FFB264DA9FE00F04CE1 /* AdLoaderRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FF0264DA9FE00F04CE1 /* AdLoaderRequestManager.swift */; };
-		A5A98FFC264DA9FE00F04CE1 /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FF1264DA9FE00F04CE1 /* BannerAdView.swift */; };
 		A5A99003264DAA3F00F04CE1 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A98FF3264DA9FE00F04CE1 /* GoogleMobileAds.xcframework */; platformFilter = ios; };
 		A5A99004264DAA3F00F04CE1 /* GoogleMobileAds.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5A98FF3264DA9FE00F04CE1 /* GoogleMobileAds.xcframework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A5A99006264DC00600F04CE1 /* GMASample.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A98FEA264DA9FE00F04CE1 /* GMASample.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
-		A5A99007264DC0AD00F04CE1 /* AdLoaderAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FEC264DA9FE00F04CE1 /* AdLoaderAdView.swift */; };
-		A5A99008264DC0AD00F04CE1 /* BannerViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FED264DA9FE00F04CE1 /* BannerViewManager.swift */; };
-		A5A99009264DC0AD00F04CE1 /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FEE264DA9FE00F04CE1 /* AdView.swift */; };
-		A5A9900A264DC0AD00F04CE1 /* AdLoaderRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FF0264DA9FE00F04CE1 /* AdLoaderRequestManager.swift */; };
-		A5A9900B264DC0AD00F04CE1 /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FF1264DA9FE00F04CE1 /* BannerAdView.swift */; };
+		A5A9900D264F086500F04CE1 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9900C264F086500F04CE1 /* AdBannerView.swift */; };
+		A5A9900E264F0A0E00F04CE1 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A98FF3264DA9FE00F04CE1 /* GoogleMobileAds.xcframework */; };
+		A5A9900F264F0A3700F04CE1 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9900C264F086500F04CE1 /* AdBannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,15 +55,9 @@
 		A5A98FDB264DA9EE00F04CE1 /* GMASample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMASample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A98FE9264DA9FE00F04CE1 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		A5A98FEA264DA9FE00F04CE1 /* GMASample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMASample.h; sourceTree = "<group>"; };
-		A5A98FEB264DA9FE00F04CE1 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
-		A5A98FEC264DA9FE00F04CE1 /* AdLoaderAdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdLoaderAdView.swift; sourceTree = "<group>"; };
-		A5A98FED264DA9FE00F04CE1 /* BannerViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewManager.swift; sourceTree = "<group>"; };
-		A5A98FEE264DA9FE00F04CE1 /* AdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
-		A5A98FEF264DA9FE00F04CE1 /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
-		A5A98FF0264DA9FE00F04CE1 /* AdLoaderRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdLoaderRequestManager.swift; sourceTree = "<group>"; };
-		A5A98FF1264DA9FE00F04CE1 /* BannerAdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
 		A5A98FF3264DA9FE00F04CE1 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
 		A5A98FF4264DA9FE00F04CE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A9900C264F086500F04CE1 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A98FE2264DA9EE00F04CE1 /* GMASample.framework in Frameworks */,
+				A5A9900E264F0A0E00F04CE1 /* GoogleMobileAds.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,13 +125,7 @@
 			children = (
 				A5A98FE9264DA9FE00F04CE1 /* .swift-version */,
 				A5A98FEA264DA9FE00F04CE1 /* GMASample.h */,
-				A5A98FEB264DA9FE00F04CE1 /* .swiftlint.yml */,
-				A5A98FEC264DA9FE00F04CE1 /* AdLoaderAdView.swift */,
-				A5A98FED264DA9FE00F04CE1 /* BannerViewManager.swift */,
-				A5A98FEE264DA9FE00F04CE1 /* AdView.swift */,
-				A5A98FEF264DA9FE00F04CE1 /* .swiftformat */,
-				A5A98FF0264DA9FE00F04CE1 /* AdLoaderRequestManager.swift */,
-				A5A98FF1264DA9FE00F04CE1 /* BannerAdView.swift */,
+				A5A9900C264F086500F04CE1 /* AdBannerView.swift */,
 				A5A98FF2264DA9FE00F04CE1 /* Frameworks */,
 				A5A98FF4264DA9FE00F04CE1 /* Info.plist */,
 			);
@@ -259,9 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A98FF6264DA9FE00F04CE1 /* .swiftlint.yml in Resources */,
 				A5A98FF5264DA9FE00F04CE1 /* .swift-version in Resources */,
-				A5A98FFA264DA9FE00F04CE1 /* .swiftformat in Resources */,
 				A5A98FD3264DA86B00F04CE1 /* Preview Assets.xcassets in Resources */,
 				A5A98FD2264DA86B00F04CE1 /* Assets.xcassets in Resources */,
 			);
@@ -281,12 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A98FF9264DA9FE00F04CE1 /* AdView.swift in Sources */,
 				A5A98FD4264DA86B00F04CE1 /* ContentView.swift in Sources */,
-				A5A98FF7264DA9FE00F04CE1 /* AdLoaderAdView.swift in Sources */,
-				A5A98FFC264DA9FE00F04CE1 /* BannerAdView.swift in Sources */,
-				A5A98FFB264DA9FE00F04CE1 /* AdLoaderRequestManager.swift in Sources */,
-				A5A98FF8264DA9FE00F04CE1 /* BannerViewManager.swift in Sources */,
+				A5A9900F264F0A3700F04CE1 /* AdBannerView.swift in Sources */,
 				A5A98FD1264DA86B00F04CE1 /* GMASampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,11 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A99007264DC0AD00F04CE1 /* AdLoaderAdView.swift in Sources */,
-				A5A99008264DC0AD00F04CE1 /* BannerViewManager.swift in Sources */,
-				A5A99009264DC0AD00F04CE1 /* AdView.swift in Sources */,
-				A5A9900A264DC0AD00F04CE1 /* AdLoaderRequestManager.swift in Sources */,
-				A5A9900B264DC0AD00F04CE1 /* BannerAdView.swift in Sources */,
+				A5A9900D264F086500F04CE1 /* AdBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
