@@ -14,7 +14,7 @@ public struct AdBannerView : UIViewRepresentable {
     @State private var banner: GADBannerView = GADBannerView(adSize: kGADAdSizeBanner)
     var bannerId: String
     
-    init(bannerId: String) {
+    public init(bannerId: String) {
         self.bannerId = bannerId
     }
     
