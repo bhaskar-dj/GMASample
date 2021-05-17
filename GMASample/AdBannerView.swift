@@ -18,7 +18,7 @@ public struct AdBannerView : UIViewRepresentable {
         self.bannerId = bannerId
     }
     
-    func makeUIView(context: UIViewRepresentableContext<AdBannerView>) -> GADBannerView {
+    public func makeUIView(context: UIViewRepresentableContext<AdBannerView>) -> GADBannerView {
         banner.adUnitID = bannerId
 
         guard let rootViewController = UIApplication.shared.windows.first?.rootViewController else {
@@ -38,5 +38,5 @@ public struct AdBannerView : UIViewRepresentable {
         return banner
     }
     
-    func updateUIView(_ uiView: GADBannerView, context: UIViewRepresentableContext<AdBannerView>) {}
+    public func updateUIView(_ uiView: GADBannerView, context: UIViewRepresentableContext<AdBannerView>) {}
 }
