@@ -7,43 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B7E6364265301BC004BC715 /* GMASample in Frameworks */ = {isa = PBXBuildFile; productRef = 9B7E6363265301BC004BC715 /* GMASample */; };
 		A5A98FD1264DA86B00F04CE1 /* GMASampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FCB264DA86B00F04CE1 /* GMASampleApp.swift */; };
 		A5A98FD2264DA86B00F04CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A98FCC264DA86B00F04CE1 /* Assets.xcassets */; };
 		A5A98FD3264DA86B00F04CE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A98FCE264DA86B00F04CE1 /* Preview Assets.xcassets */; };
 		A5A98FD4264DA86B00F04CE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FCF264DA86B00F04CE1 /* ContentView.swift */; };
-		A5A98FE2264DA9EE00F04CE1 /* GMASample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A98FDB264DA9EE00F04CE1 /* GMASample.framework */; };
-		A5A98FF5264DA9FE00F04CE1 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = A5A98FE9264DA9FE00F04CE1 /* .swift-version */; };
-		A5A99003264DAA3F00F04CE1 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A98FF3264DA9FE00F04CE1 /* GoogleMobileAds.xcframework */; platformFilter = ios; };
-		A5A99004264DAA3F00F04CE1 /* GoogleMobileAds.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5A98FF3264DA9FE00F04CE1 /* GoogleMobileAds.xcframework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A5A99006264DC00600F04CE1 /* GMASample.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A98FEA264DA9FE00F04CE1 /* GMASample.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
-		A5A9900D264F086500F04CE1 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9900C264F086500F04CE1 /* AdBannerView.swift */; };
-		A5A9900E264F0A0E00F04CE1 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A98FF3264DA9FE00F04CE1 /* GoogleMobileAds.xcframework */; };
-		A5A9900F264F0A3700F04CE1 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9900C264F086500F04CE1 /* AdBannerView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A5A98FE0264DA9EE00F04CE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A5A98F99264D9E5000F04CE1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A5A98FDA264DA9EE00F04CE1;
-			remoteInfo = GMASample;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		A5A99005264DAA3F00F04CE1 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A5A99004264DAA3F00F04CE1 /* GoogleMobileAds.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A5A98FA1264D9E5000F04CE1 /* GMASampleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMASampleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,12 +21,6 @@
 		A5A98FCE264DA86B00F04CE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5A98FCF264DA86B00F04CE1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5A98FD0264DA86B00F04CE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5A98FDB264DA9EE00F04CE1 /* GMASample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMASample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5A98FE9264DA9FE00F04CE1 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
-		A5A98FEA264DA9FE00F04CE1 /* GMASample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMASample.h; sourceTree = "<group>"; };
-		A5A98FF3264DA9FE00F04CE1 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
-		A5A98FF4264DA9FE00F04CE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5A9900C264F086500F04CE1 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,16 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A98FE2264DA9EE00F04CE1 /* GMASample.framework in Frameworks */,
-				A5A9900E264F0A0E00F04CE1 /* GoogleMobileAds.xcframework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5A98FD8264DA9EE00F04CE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5A99003264DAA3F00F04CE1 /* GoogleMobileAds.xcframework in Frameworks */,
+				9B7E6364265301BC004BC715 /* GMASample in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +38,6 @@
 		A5A98F98264D9E5000F04CE1 = {
 			isa = PBXGroup;
 			children = (
-				A5A98FE8264DA9FE00F04CE1 /* GMASample */,
 				A5A98FCA264DA86B00F04CE1 /* GMASampleTest */,
 				A5A98FA2264D9E5000F04CE1 /* Products */,
 				A5A98FFF264DAA1300F04CE1 /* Frameworks */,
@@ -95,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				A5A98FA1264D9E5000F04CE1 /* GMASampleTest.app */,
-				A5A98FDB264DA9EE00F04CE1 /* GMASample.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,26 +72,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A5A98FE8264DA9FE00F04CE1 /* GMASample */ = {
-			isa = PBXGroup;
-			children = (
-				A5A98FE9264DA9FE00F04CE1 /* .swift-version */,
-				A5A98FEA264DA9FE00F04CE1 /* GMASample.h */,
-				A5A9900C264F086500F04CE1 /* AdBannerView.swift */,
-				A5A98FF2264DA9FE00F04CE1 /* Frameworks */,
-				A5A98FF4264DA9FE00F04CE1 /* Info.plist */,
-			);
-			path = GMASample;
-			sourceTree = "<group>";
-		};
-		A5A98FF2264DA9FE00F04CE1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A5A98FF3264DA9FE00F04CE1 /* GoogleMobileAds.xcframework */,
-			);
-			path = Frameworks;
-			sourceTree = "<group>";
-		};
 		A5A98FFF264DAA1300F04CE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,17 +80,6 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		A5A98FD6264DA9EE00F04CE1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5A99006264DC00600F04CE1 /* GMASample.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A5A98FA0264D9E5000F04CE1 /* GMASampleTest */ = {
@@ -172,31 +93,14 @@
 			buildRules = (
 			);
 			dependencies = (
-				A5A98FE1264DA9EE00F04CE1 /* PBXTargetDependency */,
 			);
 			name = GMASampleTest;
+			packageProductDependencies = (
+				9B7E6363265301BC004BC715 /* GMASample */,
+			);
 			productName = GMASample;
 			productReference = A5A98FA1264D9E5000F04CE1 /* GMASampleTest.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A5A98FDA264DA9EE00F04CE1 /* GMASample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5A98FE4264DA9EE00F04CE1 /* Build configuration list for PBXNativeTarget "GMASample" */;
-			buildPhases = (
-				A5A98FD6264DA9EE00F04CE1 /* Headers */,
-				A5A98FD7264DA9EE00F04CE1 /* Sources */,
-				A5A98FD8264DA9EE00F04CE1 /* Frameworks */,
-				A5A98FD9264DA9EE00F04CE1 /* Resources */,
-				A5A99005264DAA3F00F04CE1 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GMASample;
-			productName = GMASample;
-			productReference = A5A98FDB264DA9EE00F04CE1 /* GMASample.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -210,9 +114,6 @@
 					A5A98FA0264D9E5000F04CE1 = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					A5A98FDA264DA9EE00F04CE1 = {
-						CreatedOnToolsVersion = 12.5;
-					};
 				};
 			};
 			buildConfigurationList = A5A98F9C264D9E5000F04CE1 /* Build configuration list for PBXProject "GMASample" */;
@@ -224,11 +125,13 @@
 				Base,
 			);
 			mainGroup = A5A98F98264D9E5000F04CE1;
+			packageReferences = (
+				9B7E6362265301BC004BC715 /* XCRemoteSwiftPackageReference "GMASample" */,
+			);
 			productRefGroup = A5A98FA2264D9E5000F04CE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5A98FDA264DA9EE00F04CE1 /* GMASample */,
 				A5A98FA0264D9E5000F04CE1 /* GMASampleTest */,
 			);
 		};
@@ -239,16 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A98FF5264DA9FE00F04CE1 /* .swift-version in Resources */,
 				A5A98FD3264DA86B00F04CE1 /* Preview Assets.xcassets in Resources */,
 				A5A98FD2264DA86B00F04CE1 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5A98FD9264DA9EE00F04CE1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,28 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A98FD4264DA86B00F04CE1 /* ContentView.swift in Sources */,
-				A5A9900F264F0A3700F04CE1 /* AdBannerView.swift in Sources */,
 				A5A98FD1264DA86B00F04CE1 /* GMASampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5A98FD7264DA9EE00F04CE1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5A9900D264F086500F04CE1 /* AdBannerView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A5A98FE1264DA9EE00F04CE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A5A98FDA264DA9EE00F04CE1 /* GMASample */;
-			targetProxy = A5A98FE0264DA9EE00F04CE1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A5A98FAE264D9E5200F04CE1 /* Debug */ = {
@@ -444,62 +322,6 @@
 			};
 			name = Release;
 		};
-		A5A98FE5264DA9EE00F04CE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = AM789EPRBN;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GMASample/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DowJones.GMASample;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A5A98FE6264DA9EE00F04CE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = AM789EPRBN;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GMASample/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DowJones.GMASample;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -521,16 +343,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5A98FE4264DA9EE00F04CE1 /* Build configuration list for PBXNativeTarget "GMASample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5A98FE5264DA9EE00F04CE1 /* Debug */,
-				A5A98FE6264DA9EE00F04CE1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9B7E6362265301BC004BC715 /* XCRemoteSwiftPackageReference "GMASample" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bhaskar-dj/GMASample.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9B7E6363265301BC004BC715 /* GMASample */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B7E6362265301BC004BC715 /* XCRemoteSwiftPackageReference "GMASample" */;
+			productName = GMASample;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A5A98F99264D9E5000F04CE1 /* Project object */;
 }
