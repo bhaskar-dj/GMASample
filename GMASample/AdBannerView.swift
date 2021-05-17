@@ -9,10 +9,14 @@ import Foundation
 import SwiftUI
 import GoogleMobileAds
 
-struct AdBannerView : UIViewRepresentable {
+public struct AdBannerView : UIViewRepresentable {
     
     @State private var banner: GADBannerView = GADBannerView(adSize: kGADAdSizeBanner)
     var bannerId: String
+    
+    init(bannerId: String) {
+        self.bannerId = bannerId
+    }
     
     func makeUIView(context: UIViewRepresentableContext<AdBannerView>) -> GADBannerView {
         banner.adUnitID = bannerId
