@@ -5,8 +5,8 @@
         "package": "GMASample",
         "repositoryURL": "https://github.com/bhaskar-dj/GMASample.git",
         "state": {
-          "branch": "master",
-          "revision": "a0cff3e11bc8e42e93bd81b6a7d478d6d08de72c",
+          "branch": null,
+          "revision": "da8a268a760d139501048db01aa25dea0137f083",
           "version": null
         }
       }

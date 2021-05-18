@@ -350,8 +350,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/bhaskar-dj/GMASample.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = revision;
+				revision = da8a268a760d139501048db01aa25dea0137f083;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
