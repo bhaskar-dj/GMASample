@@ -355,7 +355,7 @@
 			repositoryURL = "git@github.com:dowjones-mobile/ChanceTheAdWrapper.git";
 			requirement = {
 				kind = revision;
-				revision = a6654a2eca6b17b4dedcbdd4f301cc1a690cd1f5;
+				revision = 54602b3af3076194a6c3572ba338c4cad8ff4b8a;
 			};
 		};
 		A5F77DB62654BE9E00485B28 /* XCRemoteSwiftPackageReference "NCVideoKit" */ = {
