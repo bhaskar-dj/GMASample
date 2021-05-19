@@ -6,14 +6,14 @@
 //
 
 import SwiftUI
-import GMASample
+import ChanceTheAdWrapper
 
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .center) {
             Spacer()
-            AdBannerView(bannerId: "ca-app-pub-3940256099942544/2934735716")
-                .frame(width: 300, height: 250, alignment: .center)
+//            AdBannerView(bannerId: "ca-app-pub-3940256099942544/2934735716")
+//                .frame(width: 300, height: 250, alignment: .center)
             Spacer()
         }
         .padding()

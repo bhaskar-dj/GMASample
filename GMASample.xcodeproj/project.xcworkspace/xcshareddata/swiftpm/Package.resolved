@@ -2,12 +2,48 @@
   "object": {
     "pins": [
       {
-        "package": "GMASample",
-        "repositoryURL": "https://github.com/bhaskar-dj/GMASample.git",
+        "package": "CardboardCore",
+        "repositoryURL": "https://github.com/dowjones-mobile/CardboardSDK-iOS.git",
         "state": {
           "branch": null,
-          "revision": "da8a268a760d139501048db01aa25dea0137f083",
+          "revision": "593eb3a108390c00df8805d0bda0212874ccb0d7",
+          "version": "0.4.0"
+        }
+      },
+      {
+        "package": "ChanceTheAdWrapper",
+        "repositoryURL": "git@github.com:dowjones-mobile/ChanceTheAdWrapper.git",
+        "state": {
+          "branch": null,
+          "revision": "a6654a2eca6b17b4dedcbdd4f301cc1a690cd1f5",
           "version": null
+        }
+      },
+      {
+        "package": "DJVRKit",
+        "repositoryURL": "https://github.com/dowjones-mobile/DJVRKit.git",
+        "state": {
+          "branch": null,
+          "revision": "6dbf0aa0178aef5a57539ed3cb5232791fa74427",
+          "version": "6.1.4"
+        }
+      },
+      {
+        "package": "NCVideoKit",
+        "repositoryURL": "git@github.com:dowjones-mobile/NCVideoKit.git",
+        "state": {
+          "branch": null,
+          "revision": "445283f4a8bb30addd377fcf9f7a93be6c1fa30f",
+          "version": "7.1.7"
+        }
+      },
+      {
+        "package": "XCGLogger",
+        "repositoryURL": "https://github.com/DaveWoodCom/XCGLogger.git",
+        "state": {
+          "branch": null,
+          "revision": "a9c4667b247928a29bdd41be2ec2c8d304215a54",
+          "version": "7.0.1"
         }
       }
     ]

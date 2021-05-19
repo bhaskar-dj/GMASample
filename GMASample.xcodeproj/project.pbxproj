@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B7E6364265301BC004BC715 /* GMASample in Frameworks */ = {isa = PBXBuildFile; productRef = 9B7E6363265301BC004BC715 /* GMASample */; };
 		A5A98FD1264DA86B00F04CE1 /* GMASampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FCB264DA86B00F04CE1 /* GMASampleApp.swift */; };
 		A5A98FD2264DA86B00F04CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A98FCC264DA86B00F04CE1 /* Assets.xcassets */; };
 		A5A98FD3264DA86B00F04CE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A98FCE264DA86B00F04CE1 /* Preview Assets.xcassets */; };
 		A5A98FD4264DA86B00F04CE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FCF264DA86B00F04CE1 /* ContentView.swift */; };
+		A5F77DB52654BE6100485B28 /* ChanceTheAdWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = A5F77DB42654BE6100485B28 /* ChanceTheAdWrapper */; };
+		A5F77DB82654BE9E00485B28 /* NCVideoKit in Frameworks */ = {isa = PBXBuildFile; productRef = A5F77DB72654BE9E00485B28 /* NCVideoKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7E6364265301BC004BC715 /* GMASample in Frameworks */,
+				A5F77DB82654BE9E00485B28 /* NCVideoKit in Frameworks */,
+				A5F77DB52654BE6100485B28 /* ChanceTheAdWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +98,8 @@
 			);
 			name = GMASampleTest;
 			packageProductDependencies = (
-				9B7E6363265301BC004BC715 /* GMASample */,
+				A5F77DB42654BE6100485B28 /* ChanceTheAdWrapper */,
+				A5F77DB72654BE9E00485B28 /* NCVideoKit */,
 			);
 			productName = GMASample;
 			productReference = A5A98FA1264D9E5000F04CE1 /* GMASampleTest.app */;
@@ -126,7 +129,8 @@
 			);
 			mainGroup = A5A98F98264D9E5000F04CE1;
 			packageReferences = (
-				9B7E6362265301BC004BC715 /* XCRemoteSwiftPackageReference "GMASample" */,
+				A5F77DB32654BE6100485B28 /* XCRemoteSwiftPackageReference "ChanceTheAdWrapper" */,
+				A5F77DB62654BE9E00485B28 /* XCRemoteSwiftPackageReference "NCVideoKit" */,
 			);
 			productRefGroup = A5A98FA2264D9E5000F04CE1 /* Products */;
 			projectDirPath = "";
@@ -346,21 +350,34 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9B7E6362265301BC004BC715 /* XCRemoteSwiftPackageReference "GMASample" */ = {
+		A5F77DB32654BE6100485B28 /* XCRemoteSwiftPackageReference "ChanceTheAdWrapper" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/bhaskar-dj/GMASample.git";
+			repositoryURL = "git@github.com:dowjones-mobile/ChanceTheAdWrapper.git";
 			requirement = {
 				kind = revision;
-				revision = da8a268a760d139501048db01aa25dea0137f083;
+				revision = a6654a2eca6b17b4dedcbdd4f301cc1a690cd1f5;
+			};
+		};
+		A5F77DB62654BE9E00485B28 /* XCRemoteSwiftPackageReference "NCVideoKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:dowjones-mobile/NCVideoKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.7;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9B7E6363265301BC004BC715 /* GMASample */ = {
+		A5F77DB42654BE6100485B28 /* ChanceTheAdWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9B7E6362265301BC004BC715 /* XCRemoteSwiftPackageReference "GMASample" */;
-			productName = GMASample;
+			package = A5F77DB32654BE6100485B28 /* XCRemoteSwiftPackageReference "ChanceTheAdWrapper" */;
+			productName = ChanceTheAdWrapper;
+		};
+		A5F77DB72654BE9E00485B28 /* NCVideoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5F77DB62654BE9E00485B28 /* XCRemoteSwiftPackageReference "NCVideoKit" */;
+			productName = NCVideoKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
