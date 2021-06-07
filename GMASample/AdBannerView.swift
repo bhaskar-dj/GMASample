@@ -8,14 +8,18 @@
 import Foundation
 import SwiftUI
 import GoogleMobileAds
+import GoogleInteractiveMediaAds
 
 public struct AdBannerView : UIViewRepresentable {
     
     @State private var banner: GADBannerView = GADBannerView(adSize: kGADAdSizeBanner)
     var bannerId: String
     
+    var googleIMATest: IMAAdsLoader?
+    
     public init(bannerId: String) {
         self.bannerId = bannerId
+        self.googleIMATest = IMAAdsLoader(settings: nil)
     }
     
     public func makeUIView(context: UIViewRepresentableContext<AdBannerView>) -> GADBannerView {

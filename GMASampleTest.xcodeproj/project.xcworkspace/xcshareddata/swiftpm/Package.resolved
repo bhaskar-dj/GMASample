@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GMASample",
+        "repositoryURL": "https://github.com/bhaskar-dj/GMASample.git",
+        "state": {
+          "branch": null,
+          "revision": "85e87778a46e05dd51738989768f956f43020366",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
