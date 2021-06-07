@@ -7,8 +7,11 @@
 
 import SwiftUI
 import GMASample
+import GIMASample
 
 struct ContentView: View {
+    let gimaTest = IMATest()
+    
     var body: some View {
         VStack(alignment: .center) {
             Spacer()

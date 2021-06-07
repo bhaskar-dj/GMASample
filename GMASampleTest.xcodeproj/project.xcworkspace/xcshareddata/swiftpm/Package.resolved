@@ -2,11 +2,20 @@
   "object": {
     "pins": [
       {
-        "package": "GMASample",
-        "repositoryURL": "https://github.com/bhaskar-dj/GMASample.git",
+        "package": "GIMAPackage",
+        "repositoryURL": "https://github.com/EfficientSetting/GIMAPackage.git",
         "state": {
-          "branch": null,
-          "revision": "15380fee3cc8538a042af978daeaac9a36cb47d9",
+          "branch": "master",
+          "revision": "d52f4aba1cd9888acf30f5d04b5a3dba88659763",
+          "version": null
+        }
+      },
+      {
+        "package": "GMAPackage",
+        "repositoryURL": "https://github.com/EfficientSetting/GMAPackage.git",
+        "state": {
+          "branch": "master",
+          "revision": "88a6c8d53d9b6465c188df5db8204e67ac9da9c3",
           "version": null
         }
       }

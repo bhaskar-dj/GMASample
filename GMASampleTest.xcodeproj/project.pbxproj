@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B7E6364265301BC004BC715 /* GMASample in Frameworks */ = {isa = PBXBuildFile; productRef = 9B7E6363265301BC004BC715 /* GMASample */; };
+		9B9AA088266ECD8B0097E541 /* GIMASample in Frameworks */ = {isa = PBXBuildFile; productRef = 9B9AA087266ECD8B0097E541 /* GIMASample */; };
+		9B9AA08B266ECD9C0097E541 /* GMASample in Frameworks */ = {isa = PBXBuildFile; productRef = 9B9AA08A266ECD9C0097E541 /* GMASample */; };
 		A5A98FD1264DA86B00F04CE1 /* GMASampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FCB264DA86B00F04CE1 /* GMASampleApp.swift */; };
 		A5A98FD2264DA86B00F04CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A98FCC264DA86B00F04CE1 /* Assets.xcassets */; };
 		A5A98FD3264DA86B00F04CE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A98FCE264DA86B00F04CE1 /* Preview Assets.xcassets */; };
@@ -28,7 +29,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7E6364265301BC004BC715 /* GMASample in Frameworks */,
+				9B9AA08B266ECD9C0097E541 /* GMASample in Frameworks */,
+				9B9AA088266ECD8B0097E541 /* GIMASample in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +98,8 @@
 			);
 			name = GMASampleTest;
 			packageProductDependencies = (
-				9B7E6363265301BC004BC715 /* GMASample */,
+				9B9AA087266ECD8B0097E541 /* GIMASample */,
+				9B9AA08A266ECD9C0097E541 /* GMASample */,
 			);
 			productName = GMASample;
 			productReference = A5A98FA1264D9E5000F04CE1 /* GMASampleTest.app */;
@@ -126,7 +129,8 @@
 			);
 			mainGroup = A5A98F98264D9E5000F04CE1;
 			packageReferences = (
-				9B7E6362265301BC004BC715 /* XCRemoteSwiftPackageReference "GMASample" */,
+				9B9AA086266ECD8B0097E541 /* XCRemoteSwiftPackageReference "GIMAPackage" */,
+				9B9AA089266ECD9C0097E541 /* XCRemoteSwiftPackageReference "GMAPackage" */,
 			);
 			productRefGroup = A5A98FA2264D9E5000F04CE1 /* Products */;
 			projectDirPath = "";
@@ -284,6 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"GMASampleTest/Preview Content\"";
 				DEVELOPMENT_TEAM = AM789EPRBN;
 				ENABLE_PREVIEWS = YES;
@@ -306,6 +311,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"GMASampleTest/Preview Content\"";
 				DEVELOPMENT_TEAM = AM789EPRBN;
 				ENABLE_PREVIEWS = YES;
@@ -346,20 +352,33 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9B7E6362265301BC004BC715 /* XCRemoteSwiftPackageReference "GMASample" */ = {
+		9B9AA086266ECD8B0097E541 /* XCRemoteSwiftPackageReference "GIMAPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/bhaskar-dj/GMASample.git";
+			repositoryURL = "https://github.com/EfficientSetting/GIMAPackage.git";
 			requirement = {
-				kind = revision;
-				revision = 15380fee3cc8538a042af978daeaac9a36cb47d9;
+				branch = master;
+				kind = branch;
+			};
+		};
+		9B9AA089266ECD9C0097E541 /* XCRemoteSwiftPackageReference "GMAPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EfficientSetting/GMAPackage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9B7E6363265301BC004BC715 /* GMASample */ = {
+		9B9AA087266ECD8B0097E541 /* GIMASample */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9B7E6362265301BC004BC715 /* XCRemoteSwiftPackageReference "GMASample" */;
+			package = 9B9AA086266ECD8B0097E541 /* XCRemoteSwiftPackageReference "GIMAPackage" */;
+			productName = GIMASample;
+		};
+		9B9AA08A266ECD9C0097E541 /* GMASample */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B9AA089266ECD9C0097E541 /* XCRemoteSwiftPackageReference "GMAPackage" */;
 			productName = GMASample;
 		};
 /* End XCSwiftPackageProductDependency section */
