@@ -17,7 +17,7 @@
                BlueprintIdentifier = "A5A98FA0264D9E5000F04CE1"
                BuildableName = "GMASampleTest.app"
                BlueprintName = "GMASampleTest"
-               ReferencedContainer = "container:GMASample.xcodeproj">
+               ReferencedContainer = "container:GMASampleTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,7 +31,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "A5A98FA0264D9E5000F04CE1"
             BuildableName = "GMASampleTest.app"
             BlueprintName = "GMASampleTest"
-            ReferencedContainer = "container:GMASample.xcodeproj">
+            ReferencedContainer = "container:GMASampleTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "A5A98FA0264D9E5000F04CE1"
             BuildableName = "GMASampleTest.app"
             BlueprintName = "GMASampleTest"
-            ReferencedContainer = "container:GMASample.xcodeproj">
+            ReferencedContainer = "container:GMASampleTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
