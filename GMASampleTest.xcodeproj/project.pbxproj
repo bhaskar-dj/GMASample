@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A5A98F9C264D9E5000F04CE1 /* Build configuration list for PBXProject "GMASample" */;
+			buildConfigurationList = A5A98F9C264D9E5000F04CE1 /* Build configuration list for PBXProject "GMASampleTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5A98F9C264D9E5000F04CE1 /* Build configuration list for PBXProject "GMASample" */ = {
+		A5A98F9C264D9E5000F04CE1 /* Build configuration list for PBXProject "GMASampleTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5A98FAE264D9E5200F04CE1 /* Debug */,
@@ -351,7 +351,7 @@
 			repositoryURL = "https://github.com/bhaskar-dj/GMASample.git";
 			requirement = {
 				kind = revision;
-				revision = 85e87778a46e05dd51738989768f956f43020366;
+				revision = 15380fee3cc8538a042af978daeaac9a36cb47d9;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
