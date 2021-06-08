@@ -6,7 +6,7 @@
         "repositoryURL": "https://github.com/EfficientSetting/GIMAPackage.git",
         "state": {
           "branch": "master",
-          "revision": "d52f4aba1cd9888acf30f5d04b5a3dba88659763",
+          "revision": "60bc2c1aa02c29de0149f91f8bac9daacabfb3c5",
           "version": null
         }
       },
@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/EfficientSetting/GMAPackage.git",
         "state": {
           "branch": "master",
-          "revision": "88a6c8d53d9b6465c188df5db8204e67ac9da9c3",
+          "revision": "ad180565276cd943932cc8a1d7f6a560a0155e3f",
           "version": null
         }
       }

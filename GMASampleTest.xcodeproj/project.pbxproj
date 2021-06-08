@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B9AA088266ECD8B0097E541 /* GIMASample in Frameworks */ = {isa = PBXBuildFile; productRef = 9B9AA087266ECD8B0097E541 /* GIMASample */; };
-		9B9AA08B266ECD9C0097E541 /* GMASample in Frameworks */ = {isa = PBXBuildFile; productRef = 9B9AA08A266ECD9C0097E541 /* GMASample */; };
+		9B98D9A3266FEA95003FAFCD /* GIMAPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 9B98D9A2266FEA95003FAFCD /* GIMAPackage */; };
+		9B98D9A6266FEAA2003FAFCD /* GMAPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 9B98D9A5266FEAA2003FAFCD /* GMAPackage */; };
 		A5A98FD1264DA86B00F04CE1 /* GMASampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A98FCB264DA86B00F04CE1 /* GMASampleApp.swift */; };
 		A5A98FD2264DA86B00F04CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A98FCC264DA86B00F04CE1 /* Assets.xcassets */; };
 		A5A98FD3264DA86B00F04CE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A98FCE264DA86B00F04CE1 /* Preview Assets.xcassets */; };
@@ -29,8 +29,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9AA08B266ECD9C0097E541 /* GMASample in Frameworks */,
-				9B9AA088266ECD8B0097E541 /* GIMASample in Frameworks */,
+				9B98D9A3266FEA95003FAFCD /* GIMAPackage in Frameworks */,
+				9B98D9A6266FEAA2003FAFCD /* GMAPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +98,8 @@
 			);
 			name = GMASampleTest;
 			packageProductDependencies = (
-				9B9AA087266ECD8B0097E541 /* GIMASample */,
-				9B9AA08A266ECD9C0097E541 /* GMASample */,
+				9B98D9A2266FEA95003FAFCD /* GIMAPackage */,
+				9B98D9A5266FEAA2003FAFCD /* GMAPackage */,
 			);
 			productName = GMASample;
 			productReference = A5A98FA1264D9E5000F04CE1 /* GMASampleTest.app */;
@@ -129,8 +129,8 @@
 			);
 			mainGroup = A5A98F98264D9E5000F04CE1;
 			packageReferences = (
-				9B9AA086266ECD8B0097E541 /* XCRemoteSwiftPackageReference "GIMAPackage" */,
-				9B9AA089266ECD9C0097E541 /* XCRemoteSwiftPackageReference "GMAPackage" */,
+				9B98D9A1266FEA95003FAFCD /* XCRemoteSwiftPackageReference "GIMAPackage" */,
+				9B98D9A4266FEAA2003FAFCD /* XCRemoteSwiftPackageReference "GMAPackage" */,
 			);
 			productRefGroup = A5A98FA2264D9E5000F04CE1 /* Products */;
 			projectDirPath = "";
@@ -352,7 +352,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9B9AA086266ECD8B0097E541 /* XCRemoteSwiftPackageReference "GIMAPackage" */ = {
+		9B98D9A1266FEA95003FAFCD /* XCRemoteSwiftPackageReference "GIMAPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/EfficientSetting/GIMAPackage.git";
 			requirement = {
@@ -360,7 +360,7 @@
 				kind = branch;
 			};
 		};
-		9B9AA089266ECD9C0097E541 /* XCRemoteSwiftPackageReference "GMAPackage" */ = {
+		9B98D9A4266FEAA2003FAFCD /* XCRemoteSwiftPackageReference "GMAPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/EfficientSetting/GMAPackage.git";
 			requirement = {
@@ -371,15 +371,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9B9AA087266ECD8B0097E541 /* GIMASample */ = {
+		9B98D9A2266FEA95003FAFCD /* GIMAPackage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9B9AA086266ECD8B0097E541 /* XCRemoteSwiftPackageReference "GIMAPackage" */;
-			productName = GIMASample;
+			package = 9B98D9A1266FEA95003FAFCD /* XCRemoteSwiftPackageReference "GIMAPackage" */;
+			productName = GIMAPackage;
 		};
-		9B9AA08A266ECD9C0097E541 /* GMASample */ = {
+		9B98D9A5266FEAA2003FAFCD /* GMAPackage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9B9AA089266ECD9C0097E541 /* XCRemoteSwiftPackageReference "GMAPackage" */;
-			productName = GMASample;
+			package = 9B98D9A4266FEAA2003FAFCD /* XCRemoteSwiftPackageReference "GMAPackage" */;
+			productName = GMAPackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

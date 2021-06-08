@@ -6,8 +6,8 @@
 //
 
 import SwiftUI
-import GMASample
-import GIMASample
+import GMAPackage
+import GIMAPackage
 
 struct ContentView: View {
     let gimaTest = IMATest()
